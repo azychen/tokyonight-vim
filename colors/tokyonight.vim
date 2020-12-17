@@ -72,7 +72,7 @@ elseif s:configuration.style ==# 'storm'
         \ 'red':        ['#F7768E',   '203',  'Red'],
         \ 'orange':     ['#FF9E64',   '215',  'Orange'],
         \ 'yellow':     ['#E0AF68',   '179',  'Yellow'],
-        \ 'green':      ['#9ECE6A',   '107',  'Green'],
+        \ 'green':      ['#92c379',   '107',  'Green'],
         \ 'blue':       ['#7AA2F7',   '110',  'Blue'],
         \ 'purple':     ['#ad8ee6',   '176',  'Magenta'],
         \ 'grey':       ['#444B6A',   '246',  'LightGrey'],
@@ -397,12 +397,34 @@ highlight! link texStatement BlueItalic
 highlight! link texOnlyMath Grey
 highlight! link texDefName Yellow
 highlight! link texNewCmd Orange
+highlight! link texCmd Green
 highlight! link texCmdName Blue
+highlight! link texCmdPart Blue
+highlight! link texDelim Purple
+highlight! link texPartArgTitle Red
 highlight! link texBeginEnd Red
 highlight! link texBeginEndName Green
 highlight! link texDocType RedItalic
 highlight! link texDocTypeArgs Orange
 highlight! link texInputFile Green
+
+highlight! link texCmdMathEnv Blue
+highlight! link texMathEnvArgName Red
+highlight! link texMathZoneEnv Yellow
+highlight! link texMathCmd Green
+highlight! link texMathDelim Purple
+
+highlight! link texMathMatcher Red
+highlight! link texCmdGreek Red
+
+highlight! link texMathSymbol Green
+highlight! link texMathZoneAmsDS Yellow
+highlight! link texMathZoneCS Yellow
+highlight! link texMathZoneX Yellow
+highlight! link texMathGroup Yellow
+highlight! link texMathArg Yellow
+highlight! link texSuper Yellow
+highlight! link texSub Yellow
 " }}}
 " }}}
 " Html: {{{
